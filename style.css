@@ -1,5 +1,6 @@
 body {
     height: 100px;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -26,6 +27,9 @@ button {
     width: 160px;
      font-size: 18px;
 }
+.logo {
+    color: #2176ff;
+}
 
 
 li {
@@ -34,8 +38,69 @@ li {
 article >div {
     height: 160px;
     width: 330px;
-    border: 1px solid black;
 }
+
+article >div:nth-child(1) {
+    background-color: #ff6d56;
+    color: white;
+    padding-left: 16px;
+}
+article >div:nth-child(2) {
+    background-color:#2176ff;
+    color: white;
+    padding-left: 16px;
+}
+article >div:nth-child(3) {
+    background-color:#fbc227;
+    color: white;
+    padding-left: 16px;
+}
+
+article >div:nth-child(4) {
+    background-color: #3ec446;
+    color: white;
+    padding-left: 16px;
+}
+article >div:nth-child(5) {
+    background-color: #ea3a3a;
+    color: white;
+     padding-left: 16px;
+
+}
+article >div:nth-child(6) {
+    background-color: #42cdb2;
+    color: white;
+     padding-left: 16px;
+}
+article >div:nth-child(7) {
+    background-color: #42cdb2;
+    color: white;
+     padding-left: 16px;
+}
+article >div:nth-child(8) {
+    background-color:#ff6d56;
+    color: white;
+     padding-left: 16px;
+}
+article >div:nth-child(9) {
+    background-color:#fa99b4;
+    color: white;
+     padding-left: 16px;
+}
+article >div:nth-child(10) {
+    background-color:#ea3a3a;
+    color: white;
+     padding-left: 16px;
+}
+article >div:nth-child(11) {
+    background-color:#3ec446;
+    color: white;
+     padding-left: 16px;
+}
+article>div:hover {
+    background-color: #3c3535;
+}
+
 h1 {
     font-size: 40px;
     margin-top:6px;
